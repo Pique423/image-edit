@@ -165,8 +165,8 @@ class ImageWaterMark():
         pasted_images.save(os.path.splitext(self.image_path)[0] + "_watermarked.jpg")
 
 if __name__ == "__main__":
-    raw_image_file = "DSC08457.ARW"  # 替换为实际的RAW格式照片文件名及路径
-    #raw_image_file = "IMG_1861.DNG"  # 替换为实际的RAW格式照片文件名及路径
+    #raw_image_file = "DSC08457.ARW"  # 替换为实际的RAW格式照片文件名及路径
+    raw_image_file = "IMG_1861.DNG"  # 替换为实际的RAW格式照片文件名及路径
     iwm=ImageWaterMark(raw_image_file)
     print(iwm.__dict__)
     iwm.classic_watermark()

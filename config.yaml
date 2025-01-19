@@ -21,6 +21,9 @@ logo:
         lumix:
             id: Panasonic
             path: ./logos/lumix.png
+        apple:
+            id: Apple
+            path: ./logos/apple.jpg
         user_logo:
             id: USER
             path: ./logo.png
