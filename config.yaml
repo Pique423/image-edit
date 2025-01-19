@@ -1,0 +1,40 @@
+base:
+    font: ./fonts/SourceHanSansCN-Light.otf
+    bold_font: ./fonts/SourceHanSansCN-Bold.otf
+    quality: 100
+    
+logo:
+    enable: true
+    brand:
+        nikon:
+            id: NIKON
+            path: ./logos/nikon.png
+        canon:
+            id: Canon
+            path: ./logos/canon.png
+        sony:
+            id: SONY
+            path: ./logos/sony.png
+        pentax:
+            id: FUJIFILM
+            path: ./logos/fujifilm.png
+        lumix:
+            id: Panasonic
+            path: ./logos/lumix.png
+        user_logo:
+            id: USER
+            path: ./logo.png
+user: PHOTO BY Whischik
+font: 
+    model: ./fonts/SourceHanSansCN-Medium.otf
+    fas: ./fonts/SourceHanSansCN-Heavy.otf
+    lens: ./fonts/SourceHanSansCN-Normal.otf
+    author: ./fonts/SourceHanSansCN-Regular.otf
+    # model: ./fonts/SourceHanSansCN-Light.otf
+    # fas: ./fonts/SourceHanSansCN-Heavy.otf
+    # lens: ./fonts/SourceHanSansCN-ExtraLight.otf
+    # author: ./fonts/SourceHanSansCN-Bold.otf
+
+#SourceHanSansCN-Medium.otf
+#SourceHanSansCN-Normal.otf
+#SourceHanSansCN-Regular.otf
